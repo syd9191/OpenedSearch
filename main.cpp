@@ -19,8 +19,6 @@ struct ChunkInfo{
     uint32_t chunkLength;
     ChunkMeta metadata;
     std::string content;
-
-    
 };
  
 struct Posting{
