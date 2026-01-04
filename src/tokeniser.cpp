@@ -2,7 +2,6 @@
 #include <cctype> 
 
 std::vector<std::string> tokenise(std::string const &inputString) { // const here is a promise not to modify the param
-
     std::string curr;
     std::vector<std::string> tokensVec;
 
